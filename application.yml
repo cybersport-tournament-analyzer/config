@@ -36,6 +36,4 @@ services:
     accessKey: user
     secretKey: password
     
-dathost:
-  username: "cadoni827@gmail.com"
-  password: "smolensk863"
+
