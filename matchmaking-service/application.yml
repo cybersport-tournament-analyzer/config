@@ -1,3 +1,7 @@
 spring:
   application:
     name: matchmaking-service
+
+dathost:
+  username: "cadoni827@gmail.com"
+  password: "smolensk863"
