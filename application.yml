@@ -39,7 +39,7 @@ services:
 logging:
   level:
     root: info
-    org.apache.kafka: OFF
+    org.apache.kafka: ON
     
 dathost:
   username: cadoni827@gmail.com
