@@ -35,11 +35,6 @@ services:
     endpoint: http://127.0.0.1:9000/
     accessKey: user
     secretKey: password
-
-logging:
-  level:
-    root: info
-    org.apache.kafka: ON
     
 dathost:
   username: cadoni827@gmail.com
