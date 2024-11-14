@@ -40,3 +40,7 @@ logging:
   level:
     root: info
     org.apache.kafka: OFF
+    
+dathost:
+  username: cadoni827@gmail.com
+  password: smolensk863
