@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: password
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  data:
+    redis:
+      port: 6379
+      host: localhost
+
+    kafka:
+      port: 9092
+      host: localhost
+      path: localhost:9092
+      topics:
+        default-partition: 1
+        default-replication: 1
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+
+services:
+  s3:
+    endpoint: http://127.0.0.1:9000/
+    accessKey: user
+    secretKey: password
+
+logging:
+  level:
+    root: info
+    org.apache.kafka: OFF
