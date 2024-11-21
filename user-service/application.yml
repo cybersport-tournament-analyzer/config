@@ -5,3 +5,6 @@ steam:
   api:
     token: ECD36B5DF3DFA8065A21C3B09F63881B
     url: https://api.steampowered.com
+faceit:
+  api:
+    key: 428f358b-0e67-45a7-b339-41958254d3c1
