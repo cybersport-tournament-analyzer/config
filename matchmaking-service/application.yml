@@ -5,3 +5,4 @@ spring:
 dathost:
   username: "cadoni827@gmail.com"
   password: "smolensk863"
+  url: "https://dathost.net/api/0.1/game-servers"
