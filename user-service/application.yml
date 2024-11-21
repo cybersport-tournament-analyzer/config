@@ -1,3 +1,7 @@
 spring:
   application:
     name: user-service
+steam:
+  api:
+    token: ECD36B5DF3DFA8065A21C3B09F63881B
+    url: https://api.steampowered.com
