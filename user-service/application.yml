@@ -1,6 +1,17 @@
 spring:
   application:
     name: user-service
+  data:
+    redis:
+      cache:
+        default-ttl: 86400
+        cache-settings:
+          refresh-token:
+            name: refresh-token
+            ttl: ${jwt.tokens.refresh.expiration}
+          blacklisted-token:
+            name: blacklisted-token
+            ttl: ${jwt.tokens.access.expiration}
 steam:
   api:
     token: ECD36B5DF3DFA8065A21C3B09F63881B
