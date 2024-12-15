@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://postgresql:5432/postgres
     username: user
     password: password
 
@@ -17,23 +17,23 @@ spring:
   data:
     redis:
       port: 6379
-      host: localhost
+      host: redis
 
-    kafka:
-      port: 9092
-      host: localhost
-      path: localhost:9092
-      topics:
-        default-partition: 1
-        default-replication: 1
+#    kafka:
+#      port: 9092
+#      host: localhost
+#      path: localhost:9092
+#      topics:
+#        default-partition: 1
+#        default-replication: 1
 
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
 
-services:
-  s3:
-    endpoint: http://127.0.0.1:9000/
-    accessKey: user
-    secretKey: password
-    
+#services:
+#  s3:
+#    endpoint: http://127.0.0.1:9000/
+#    accessKey: user
+#    secretKey: password
+#
 
