@@ -18,7 +18,6 @@ spring:
     redis:
       port: 6379
       host: redis
-
 #    kafka:
 #      port: 9092
 #      host: localhost
