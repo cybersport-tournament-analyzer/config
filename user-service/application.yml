@@ -12,6 +12,12 @@ spring:
           blacklisted-token:
             name: blacklisted-token
             ttl: ${jwt.tokens.access.expiration}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/usersdb
+    username: user
+    password: password
+    
   main:
     allow-circular-references: true
 jwt:
