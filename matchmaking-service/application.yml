@@ -1,7 +1,11 @@
 spring:
   application:
     name: matchmaking-service
-
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/matchmakingdb
+    username: matchmakingdb
+    password: password
 dathost:
   username: "cadoni827@gmail.com"
   password: "smolensk863"
