@@ -10,4 +10,5 @@ spring:
 dathost:
   username: "cadoni827@gmail.com"
   password: "smolensk863"
-  url: "https://dathost.net/api/0.1/game-servers"
+  servers-url: https://dathost.net/api/0.1/game-servers
+  matches-url: https://dathost.net/api/0.1/cs2-matches  
