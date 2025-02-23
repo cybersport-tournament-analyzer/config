@@ -25,10 +25,10 @@ jwt:
   tokens:
     access:
       key: 2D2E1792BBDB38F0E108913212EC36CEBF1A3DE814A3F0D344BAF7C91E111DE8
-      expiration: 1000000
+      expiration: 100000
     refresh:
       key: 2D2E1792BBDB38F0E108913212EC36CEBF1A3DE814A3F0D344BAF7C91E111DE8
-      expiration: 86400000
+      expiration: 200000
 
 steam:
   api:
