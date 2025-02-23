@@ -22,7 +22,8 @@ spring:
 #        default-partition: 1
 #        default-replication: 1
 
-  
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
 
 #services:
 #  s3:
