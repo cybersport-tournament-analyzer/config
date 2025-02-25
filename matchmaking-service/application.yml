@@ -14,4 +14,7 @@ dathost:
   username: "cadoni827@gmail.com"
   password: "smolensk863"
   servers-url: https://dathost.net/api/0.1/game-servers
-  matches-url: https://dathost.net/api/0.1/cs2-matches  
+  matches-url: https://dathost.net/api/0.1/cs2-matches
+
+cors:
+  allowed-origins: "http://localhost:4200"
