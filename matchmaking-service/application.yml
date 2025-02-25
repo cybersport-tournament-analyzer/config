@@ -13,22 +13,5 @@ dathost:
   servers-url: https://dathost.net/api/0.1/game-servers
   matches-url: https://dathost.net/api/0.1/cs2-matches
 
-maps:
-  1x1: ["2939997647","3429229778","3197575080","3428048636"]
-  2x2:
-    - "de_dust2"
-    - "de_inferno"
-    - "de_mirage"
-    - "de_nuke"
-    - "de_ancient"
-    - "de_train"
-    - "de_anubis"
-    - "de_overpass"
-  5x5:
-    - "de_dust2"
-    - "de_inferno"
-    - "de_mirage"
-    - "de_nuke"
-    - "de_ancient"
-    - "de_train"
-    - "de_anubis"
+cors:
+  allowed-origins: "http://127.0.0.1:5500"
