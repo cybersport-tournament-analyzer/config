@@ -17,4 +17,7 @@ dathost:
   matches-url: https://dathost.net/api/0.1/cs2-matches
 
 cors:
-  allowed-origins: "http://localhost:4200"
+  allowed-origins:
+    local: "http://127.0.0.1:5500"
+    rodya: "http://localhost:4200"
+    
