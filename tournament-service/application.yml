@@ -9,4 +9,5 @@ spring:
   data:
     kafka:
       group-id: tournament-group
+      path: localhost:9092
 

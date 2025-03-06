@@ -9,6 +9,7 @@ spring:
   data:
     kafka:
       group-id: matchmaking-group
+      path: localhost:9092
 
 dathost:
   username: "cadoni827@gmail.com"
