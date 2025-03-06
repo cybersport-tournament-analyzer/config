@@ -6,7 +6,9 @@ spring:
     url: jdbc:postgresql://localhost:5433/matchmakingdb
     username: matchmakingdb
     password: password
-
+  data:
+    kafka:
+      group-id: matchmaking-group
 
 dathost:
   username: "cadoni827@gmail.com"
