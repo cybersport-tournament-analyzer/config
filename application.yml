@@ -7,15 +7,19 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
-#
-#    kafka:
-#      port: 9092
-#      host: localhost
-#      path: localhost:9092
-#      topics:
-#        default-partition: 1
-#        default-replication: 1
+  data:
+    kafka:
+      port: 9092
+      host: 5.34.209.144
+      path: 5.34.209.144:9092
+      topics:
+        default-partition: 1
+        default-replication: 1
+        topic-settings:
+          match-end:
+            name: match-end
+          lobby-start:
+            name: lobby-start
 
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
