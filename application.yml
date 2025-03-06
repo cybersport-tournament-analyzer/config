@@ -14,13 +14,20 @@ spring:
       port: 6379
       host: localhost
 
-#    kafka:
-#      port: 9092
-#      host: localhost
-#      path: localhost:9092
-#      topics:
-#        default-partition: 1
-#        default-replication: 1
+    kafka:
+      port: 9092
+      host: localhost
+      path: localhost:9092
+      topics:
+        default-partition: 1
+        default-replication: 1
+        topic-settings:
+          match:
+            name: match
+          player:
+            name: player
+          lobby:
+            name: lobby
 
 
 
