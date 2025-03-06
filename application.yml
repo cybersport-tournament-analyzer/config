@@ -22,12 +22,10 @@ spring:
         default-partition: 1
         default-replication: 1
         topic-settings:
-          match:
-            name: match
-          player:
-            name: player
-          lobby:
-            name: lobby
+          match-end:
+            name: match-end
+          lobby-start:
+            name: lobby-start
 
 
 
