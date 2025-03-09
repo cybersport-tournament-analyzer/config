@@ -15,12 +15,6 @@ spring:
             name: blacklisted-token
             ttl: ${jwt.tokens.access.expiration}
 
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://5.34.209.144:5432/usersdb
-    username: usersdb
-    password: password
-
 steam:
   api:
     token: ECD36B5DF3DFA8065A21C3B09F63881B
