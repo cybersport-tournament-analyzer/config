@@ -28,6 +28,10 @@ management:
     web:
       exposure:
         include: health, info
+  health:
+    defaults:
+      enabled: true
+    show-details: always
 
 #services:
 #  s3:
