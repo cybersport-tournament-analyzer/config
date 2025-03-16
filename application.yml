@@ -26,6 +26,11 @@ spring:
             name: match-end
           lobby-start:
             name: lobby-start
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
 
 
 
