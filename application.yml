@@ -26,6 +26,7 @@ spring:
             name: match-end
           lobby-start:
             name: lobby-start
+
 management:
   endpoints:
     web:
@@ -35,6 +36,7 @@ management:
     defaults:
       enabled: true
     show-details: always
+    show-components: always
 
 
 
