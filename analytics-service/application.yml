@@ -3,6 +3,6 @@ spring:
     name: analytics-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://5.34.209.144:5434/analiticsdb
-    username: analiticsdb
+    url: jdbc:postgresql://5.34.209.144:5434/analiticdb
+    username: analiticdb
     password: password
