@@ -36,7 +36,10 @@ management:
     show-details: always
     show-components: always
 
-
+logging:
+  level:
+    root: info
+    org.apache.kafka: OFF
 
 #services:
 #  s3:
