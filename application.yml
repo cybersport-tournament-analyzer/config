@@ -22,6 +22,8 @@ spring:
         topic-settings:
           match-end:
             name: match-end
+          match-start:
+            name: match-start
           lobby-start:
             name: lobby-start
 
