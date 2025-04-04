@@ -14,3 +14,14 @@ spring:
       group-id: tournament-group
       path: localhost:9092
 
+async.settings:
+  kafka:
+    corePoolSize: 5
+    maxPoolSize: 10
+    queueCapacity: 100
+  redis:
+    settings:
+      lobby:
+        corePoolSize: 5
+        maxPoolSize: 10
+        queueCapacity: 100
