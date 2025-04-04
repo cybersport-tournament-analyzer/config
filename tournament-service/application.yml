@@ -19,9 +19,3 @@ async.settings:
     corePoolSize: 5
     maxPoolSize: 10
     queueCapacity: 100
-  redis:
-    settings:
-      lobby:
-        corePoolSize: 5
-        maxPoolSize: 10
-        queueCapacity: 100
