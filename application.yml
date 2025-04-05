@@ -43,6 +43,10 @@ logging:
     root: info
     org.apache.kafka: OFF
 
+auto:
+  offset:
+    reset: latest
+
 #services:
 #  s3:
 #    endpoint: http://127.0.0.1:9000/
