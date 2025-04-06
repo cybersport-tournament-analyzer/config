@@ -3,10 +3,15 @@ spring:
     name: tournament-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5434/tournamentdb
+    url: jdbc:postgresql://5.34.209.144:5435/tournamentdb
     username: tournamentdb
     password: password
   data:
     kafka:
       group-id: tournament-group
       path: 5.34.209.144:9092
+async.settings:
+  kafka:
+    corePoolSize: 5
+    maxPoolSize: 10
+    queueCapacity: 100

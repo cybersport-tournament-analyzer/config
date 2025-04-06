@@ -24,4 +24,15 @@ cors:
   allowed-origins:
     local: "http://127.0.0.1:5500"
     rodya: "http://localhost:4200"
-    
+
+async.settings:
+  kafka:
+    corePoolSize: 5
+    maxPoolSize: 10
+    queueCapacity: 100
+  redis:
+    settings:
+      lobby:
+        corePoolSize: 5
+        maxPoolSize: 10
+        queueCapacity: 100
