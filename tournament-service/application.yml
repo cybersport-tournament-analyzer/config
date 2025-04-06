@@ -6,7 +6,7 @@ spring:
     name: tournament-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5434/tournamentdb
+    url: jdbc:postgresql://localhost:5435/tournamentdb
     username: tournamentdb
     password: password
   data:
