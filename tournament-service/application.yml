@@ -3,8 +3,8 @@ spring:
     name: tournament-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://5.34.209.144:5435/tournamentdb
-    username: tournamentdb
+    url: jdbc:postgresql://5.34.209.144:5435/tournamentsdb
+    username: tournamentsdb
     password: password
   data:
     kafka:
