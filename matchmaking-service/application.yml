@@ -41,3 +41,31 @@ async.settings:
         corePoolSize: 5
         maxPoolSize: 10
         queueCapacity: 100
+
+maps:
+  1vs1:
+    AIM_Fake: 3073259920
+    AIM_Redline: 3131775712
+    AIM_Fist: 3101654056
+    AIM_Nuke_hall: 3125119625
+    AIM_Map: 3084291314
+    AIM_Vertigo: 3309764985
+    AIM_Case: 3090032979
+
+  2vs2:
+    Vertigo: de_vertigo
+    Inferno: de_inferno
+    Overpass: de_overpass
+    Nuke: de_nuke
+    Dust II: 3347582685
+    Mirage: 3347606169
+    Train: 3408016560
+
+  5vs5:
+    Dust II: de_dust2
+    Inferno: de_inferno
+    Mirage: de_mirage
+    Nuke: de_nuke
+    Ancient: de_ancient
+    Train: de_train
+    Anubis: de_anubis
