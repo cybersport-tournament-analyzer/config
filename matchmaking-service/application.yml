@@ -5,7 +5,7 @@ spring:
       host: 5.34.209.144
     kafka:
       group-id: matchmaking-group
-      path: 5.34.209.144:9092
+      path: 109.172.95.212:9092
   application:
     name: matchmaking-service
   datasource:

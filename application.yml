@@ -10,8 +10,8 @@ spring:
   data:
     kafka:
       port: 9092
-      host: 5.34.209.144
-      path: 5.34.209.144:9092
+      host: 109.172.95.212
+      path: 109.172.95.212:9092
       topics:
         default-partition: 1
         default-replication: 1

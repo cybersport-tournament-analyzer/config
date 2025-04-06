@@ -9,7 +9,8 @@ spring:
   data:
     kafka:
       group-id: tournament-group
-      path: 5.34.209.144:9092
+      path: 109.172.95.212:9092
+      
 async.settings:
   kafka:
     corePoolSize: 5
