@@ -26,6 +26,8 @@ spring:
             name: match-start
           lobby-start:
             name: lobby-start
+          round-end:
+            name: round-end
 
 management:
   endpoints:
