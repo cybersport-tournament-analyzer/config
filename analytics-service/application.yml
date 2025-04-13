@@ -1,3 +1,26 @@
 spring:
+
   application:
     name: analytics-service
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5435/analyticsdb
+    username: analyticsdb
+    password: password
+
+    kafka:
+      group-id: analytics-group
+      path: localhost:9092
+
+  elasticsearch:
+    uris: http://localhost:9200
+    username: elastic
+    password: password
+
+
+async.settings:
+  kafka:
+    corePoolSize: 5
+    maxPoolSize: 10
+    queueCapacity: 100
