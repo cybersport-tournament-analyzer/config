@@ -28,6 +28,8 @@ spring:
             name: lobby-start
           round-end:
             name: round-end
+          pick-bans:
+            name: pick-bans
 
 management:
   endpoints:
